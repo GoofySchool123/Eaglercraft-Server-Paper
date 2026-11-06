@@ -1,5 +1,5 @@
-# Use an official OpenJDK 8 runtime environment
-FROM openjdk:8-jre-alpine
+# Use a modern, officially supported Java 8 environment
+FROM eclipse-temurin:8-jre-alpine
 
 # Set the working directory inside the cloud machine
 WORKDIR /app
